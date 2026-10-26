@@ -1,0 +1,72 @@
+/* pengaturan dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* header */
+header {
+    background-color: #163a5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+/* navbar */
+nav {
+    background-color: #24577a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* konten utama */
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.banner {
+    background-color: #dcecff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.tombol:hover {
+    background-color: #a2b9eb;
+}
+
+/* daftar produk */
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.produk {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
